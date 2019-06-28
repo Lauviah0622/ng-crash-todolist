@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let todo of todolist">
+    <button (click)="onDelete(todo)">X</button>
+    {{todo.id}}
+  </li>
+</ul>
